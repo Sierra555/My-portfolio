@@ -1,0 +1,11 @@
+Model Information:
+* title:	MacBook Pro (2016)
+* source:	https://sketchfab.com/3d-models/macbook-pro-2016-6f8394877a31475c83b07916862d3293
+* author:	alexreed12345 (https://sketchfab.com/alexreed12345)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MacBook Pro (2016)" (https://sketchfab.com/3d-models/macbook-pro-2016-6f8394877a31475c83b07916862d3293) by alexreed12345 (https://sketchfab.com/alexreed12345) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
