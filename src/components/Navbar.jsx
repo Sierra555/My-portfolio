@@ -37,7 +37,7 @@ const Navbar = () => {
             window.scrollTo(0,0)
           }}>
           <img className='w-9 h-9 object-contain' srcSet={`${logo} 1x, ${logo2x} 2x`} src={logo} alt='Portfolio logo' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex transition-colors hover:text-violet-600'>Dara &nbsp; <span className='sm:block hidden'> | Portfolio</span></p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex items-center transition-colors hover:text-violet-600'>Dara &nbsp; <span className='sm:block hidden'> | Portfolio</span></p>
         </Link>
         <div className='hidden sm:block'>
           <List active={active} setActive={setActive} />
