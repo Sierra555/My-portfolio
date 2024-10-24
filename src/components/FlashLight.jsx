@@ -13,10 +13,10 @@ const FlashLight = ({containerRef}) => {
             setPointerPosition({x, y});
         };
 
-        container.addEventListener('pointermove', handlePointerMove);
+        container.addEventListener('mousemove', handlePointerMove);
 
         return () => {
-            container.removeEventListener('pointermove', handlePointerMove);
+            container.removeEventListener('mousemove', handlePointerMove);
         }
     }, [containerRef]);
 

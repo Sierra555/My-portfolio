@@ -15,7 +15,7 @@ const experienceContent = {
   subTitle: "What I have done so far in Frontend"
 }
 
-const ExperienceCard = ({ experience, setAnimationName, setIsPointerOver, tags })  => {
+const ExperienceCard = ({ experience, setAnimationName, setIsPointerOver })  => {
   return (
     <VerticalTimelineElement
       contentStyle={{
