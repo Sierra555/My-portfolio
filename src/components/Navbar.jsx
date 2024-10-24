@@ -25,7 +25,7 @@ const Navbar = () => {
   }, [scrolled]);
 
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${
+    <header className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${
       scrolled ? "bg-primary" : "bg-transparent"
     }`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -39,10 +39,10 @@ const Navbar = () => {
           <img className='w-9 h-9 object-contain' srcSet={`${logo} 1x, ${logo2x} 2x`} src={logo} alt='Portfolio logo' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex items-center transition-colors hover:text-violet-600'>Dara &nbsp; <span className='sm:block hidden'> | Portfolio</span></p>
         </Link>
-        <div className='hidden sm:block'>
+        <nav className='hidden sm:block'>
           <List active={active} setActive={setActive} />
-        </div>
-        <div className='flex flex-1 justify-end items-center sm:hidden'>
+        </nav>
+        <nav className='flex flex-1 justify-end items-center sm:hidden'>
           <button
             type='button'
             onClick={() => setToggled(!toggled)}
@@ -53,9 +53,9 @@ const Navbar = () => {
           <div className={`${toggled ? 'flex' : 'hidden'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
             <List active={active} setActive={setActive} toggled={toggled} setToggled={setToggled} />
           </div>
-        </div>
+        </nav>
       </div>
-    </nav>
+    </header>
   )
 }
 
