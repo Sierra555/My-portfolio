@@ -8,7 +8,7 @@ import { fadeIn } from "../utils/motion";
 const aboutContnet = {
   title:  "Overview.",
   subTitle: "Introduction",
-  text: "I’m an skilled software developer proficient in TypeScript and JavaScript, with a strong focus on React.js. I’m a fast learner who works closely with clients to deliver efficient, scalable, and intuitive solutions that address real-world challenges. Let’s collaborate to turn your vision into reality!"
+  text: "I’m a skilled software developer proficient in TypeScript and JavaScript, with a strong focus on React.js. I’m a fast learner who works closely with clients to deliver efficient, scalable, and intuitive solutions that address real-world challenges. Let’s collaborate to turn your vision into reality!"
 }
 
 const ServiceCard = ({ index, title, icon, webpIcon}) => (
