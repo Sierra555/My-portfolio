@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import { ArrowBigRight, ArrowBigLeft } from 'lucide-react';
+import { motion, MotionConfig, AnimatePresence } from 'framer-motion';
 
 const Slider = ({ cards, Component, sliderParam, cardParam }) => {
     const [cardIndex, setCardIndex] = useState(0);
@@ -34,59 +35,67 @@ const Slider = ({ cards, Component, sliderParam, cardParam }) => {
     };
 
     return(
-        <div
-            aria-label="Slider"
-            style={{
-                width: `${sliderParam.width}px`, 
-                position: "relative", 
-                overflow: "hidden", 
-                display: 'flex',
-                alignItems: 'center',
-                gap:`${cardParam.gap}px`,
-            }}
-            className={'mt-5 p-[40px] mx-auto'}
-            onTouchStart={handleTouchStart}
-            onTouchMove={handleTouchMove}
-            onTouchEnd={handleTouchEnd}
-         > 
+        <MotionConfig transition={{duration: .5, ease: 'easeInOut' }}> 
             <div
-                style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap:`${cardParam.gap}px`,
-                transition: 'transform 0.5s ease-in-out', 
-                transform: `translateX(${
-                    -(cardParam.width + cardParam.gap) * cardIndex
-                }px)`,
-                }}
-            >
-                {cards.map((card, index)=>
-                    <Component 
-                        key={card.name} 
-                        index={index} 
-                        {...card} 
-                        cardsToDisplay={cardParam.cardsToDisplay}
-                        cardWidth={`${cardParam.width}px`}
-                    />
-                 )}
+                aria-label="Slider"
+                className={'relative flex'}
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
+            > <div 
+                   style={{width: `${sliderParam.width}px`, padding: `${cardParam.gap}px`}}
+                   className={`overflow-hidden flex mt-5 mx-auto`}
+                >
+                <motion.div
+                    style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap:`${cardParam.gap}px`,
+                    }}
+                    animate={{x: `-${(cardParam.width + cardParam.gap) * cardIndex}px`}}
+                >
+                    {cards.map((card, index)=>
+                        <Component 
+                            key={card.name} 
+                            index={index} 
+                            {...card} 
+                            cardWidth={`${cardParam.width}px`}
+                        />
+                    )}
+                </motion.div>
+                </div>
+                <AnimatePresence initial={false}>
+                    {cardIndex > 0 && (
+                        <motion.button 
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 0.7 }}
+                            exit={{ opacity: 0, pointerEvents: 'none' }}
+                            whileHover={{ opacity: 1 }}
+                            whileFocus={{ opacity: 1 }}
+                            onClick={showPrevCard}
+                            aria-label="Previous Card"
+                            className='absolute top-1/2 left-0 -mt-4 flex h-8 w-8 items-center justify-center rounded-full bg-green-200 border border-gray-100'
+                            tabIndex={1}
+                        ><ArrowBigLeft aria-hidden/></motion.button>
+                    )} 
+                </AnimatePresence>
+                <AnimatePresence initial={false}>
+                    {cardIndex < cards.length - cardParam.cardsToDisplay && (
+                        <motion.button 
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 0.7 }}
+                            exit={{ opacity: 0, pointerEvents: 'none' }}
+                            whileHover={{ opacity: 1 }}
+                            whileFocus={{ opacity: 1 }}
+                            onClick={showNextCard}
+                            aria-label="Next Card"
+                            className='absolute top-1/2 right-0	-mt-4 flex h-8 w-8 items-center justify-center rounded-full bg-green-200 border border-gray-100'
+                            tabIndex={1}
+                    ><ArrowBigRight aria-hidden/></motion.button>
+                    )}
+                </AnimatePresence>
             </div>
-            {cardIndex > 0 && (
-                <button 
-                    onClick={showPrevCard}
-                    aria-label="Previous Card"
-                    style={{position: "absolute", left: 0}}
-                    className='slider-btn'
-                ><ArrowBigLeft aria-hidden/></button>
-            )} 
-            {cardIndex < cards.length - cardParam.cardsToDisplay && (
-                <button 
-                onClick={showNextCard}
-                aria-label="Next Card"
-                style={{position: "absolute", right: 0}}
-                className='slider-btn'
-            ><ArrowBigRight aria-hidden/></button>
-            )}
-        </div>
+        </MotionConfig>
     )
 }
 

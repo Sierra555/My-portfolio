@@ -20,7 +20,7 @@ const Projects = () => {
 const cardParam = {
   width: isMobile ? 282 : (isTablet ? 600 : 362),
   cardsToDisplay: isDesktop ? 3 : 1,
-  gap: 40,
+  gap: 30,
 }
 
 const sliderParam = {
@@ -29,17 +29,17 @@ const sliderParam = {
 
   return (
     <>
-      <Slider cards={projects} Component={ProjectCard} sliderParam={sliderParam} cardParam={cardParam}/>
+      <Slider cards={projects} Component={ProjectCard} sliderParam={sliderParam} cardParam={cardParam} />
     </>
   )
 }
 
 
-const ProjectCard = ({ index, name, description, tags, image, imageWebp, source_code_link, cardsToDisplay, cardWidth}) => {
+const ProjectCard = ({ index, name, description, tags, image, imageWebp, source_code_link, cardWidth}) => {
   return (
     <Tilt options={{max: 40, scale: 1, speed: 500}} style={{ width: cardWidth }}>
       <motion.div 
-          variants={index >= 0 && index < cardsToDisplay ? fadeIn('right', 'spring', index * .25, .75) : ''}
+          variants={fadeIn('right', 'spring', index * .25, .75)}
           className='rounded-2xl p-[1px] bg-secondary relative'
         >
           <div className={`bg-tertiary rounded-2xl p-5 h-[550px] flex justify-between flex-col gap-5`} >
