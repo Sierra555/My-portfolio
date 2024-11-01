@@ -9,7 +9,7 @@ import { Slider } from '../components';
 import useIsMobile from "../hooks/useIsMobile";
 
 const projectsContent = {
-  title:  "Projects.",
+  title:  "Projects",
   subTitle: "My works",
   text: "The following projects highlight my skills and experience through practical examples of my work. Each project includes a brief description, along with links to the code repositories. They demonstrate my capacity to tackle complex challenges, collaborate with various technologies, and effectively manage projects."
 }

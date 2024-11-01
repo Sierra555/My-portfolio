@@ -11,7 +11,7 @@ import { SectionWrapper } from "../hoc";
 
 
 const experienceContent = {
-  title: "Work Experience.",
+  title: "Work Experience",
   subTitle: "What I have done so far in Frontend"
 }
 
