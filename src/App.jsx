@@ -2,6 +2,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { About, Contact, Experience, Hero, Projects } from './sections';
 import { MotionConfig } from "framer-motion"
 import { StarsCanvas, Navbar } from './components';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </div> 
       </div>
       </MotionConfig>
+      <Analytics />
     </Router>
   );
 }
