@@ -100,6 +100,7 @@ import {
       image: oculus,
       imageWebp: oculusWebp,
       source_code_link: "https://github.com/Sierra555/Oculus",
+      app_link: "https://oculus-blush.vercel.app/",
     },
     {
       name: "Comfort Masters",
@@ -119,6 +120,7 @@ import {
       image: comfortmasters,
       imageWebp: comfortmastersWebp,
       source_code_link: "https://github.com/Sierra555/comfort-masters",
+      app_link: "",
     },
     {
       name: "Portfolio",
@@ -137,7 +139,8 @@ import {
       ],
       image: portfolio,
       imageWebp: portfolioWebp,
-      source_code_link: "https://github.com/Sierra555/Oculus",
+      source_code_link: "https://github.com/Sierra555/My-portfolio",
+      app_link: "https://my-portfolio-nu-green.vercel.app/",
     }, 
     {
       name: "Desire",
@@ -153,7 +156,8 @@ import {
       ],
       image: desire,
       imageWebp: desireWebp,
-      source_code_link: "https://github.com/Sierra555/My-portfolio",
+      source_code_link: "https://github.com/Sierra555/desire",
+      app_link: "https://desire-ynho.vercel.app/",
     },
     {
       name: "REST Countries API",
@@ -173,6 +177,7 @@ import {
       image: countries,
       imageWebp: countriesWebp,
       source_code_link: "https://github.com/Sierra555/rest-countries-api-with-color-theme-switcher-master",
+      app_link: "https://rest-countries-api-with-color-theme-switcher-master-lake.vercel.app/",
     }, 
     {
       name: "Blog Project",
