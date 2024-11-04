@@ -3,7 +3,6 @@ import { About, Contact, Experience, Hero, Projects } from './sections';
 import { MotionConfig } from "framer-motion"
 import { StarsCanvas, Navbar } from './components';
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
       </div>
       </MotionConfig>
       <Analytics />
-      <SpeedInsights />
     </Router>
   );
 }
