@@ -105,7 +105,7 @@ import {
     {
       name: "Comfort Masters",
       description:
-        "The site enables users to get the estimation of reconstruction price, check the testimonials and view the services catalog.",
+        "The site enables users to get the estimation of reconstruction price, check the testimonials and view the services catalog. *SSL certificates are on the domain owner side",
       tags: [
         {
           name: "javascript",
@@ -120,7 +120,7 @@ import {
       image: comfortmasters,
       imageWebp: comfortmastersWebp,
       source_code_link: "https://github.com/Sierra555/comfort-masters",
-      app_link: "",
+      app_link: "https://comfortmasters.org/",
     },
     {
       name: "Portfolio",
