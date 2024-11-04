@@ -70,7 +70,7 @@ const Contact = () => {
 
   return (
     <>
-    <div className="flex gap-5">
+    <div className="flex gap-5 overflow-hidden">
       {alert.show && <Alert {...alert} />}
         <motion.form variants={slideIn('left', 'spring', .2, 2)} ref={formRef} onSubmit={handleSubmit}
          className="bg-tertiary rounded-2xl border border-gray-100 flex flex-col space-y-7 min-w-xl lg:max-w-xl w-full relative z-10 sm:p-10 p-5 mt-12">
