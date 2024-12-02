@@ -34,7 +34,6 @@ const sliderParam = {
   )
 }
 
-
 const ProjectCard = ({ index, name, description, tags, image, imageWebp, source_code_link, app_link, cardWidth}) => {
   return (
     <Tilt options={{max: 40, scale: 1, speed: 500}} style={{ width: cardWidth }}>
