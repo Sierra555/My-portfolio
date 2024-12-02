@@ -41,26 +41,39 @@ const ProjectCard = ({ index, name, description, tags, image, imageWebp, source_
       <motion.div 
           variants={fadeIn('right', 'spring', index * .25, .75)}
           className='rounded-2xl p-[1px] bg-secondary relative'
+      >
+        <div 
+          onClick={() => app_link && window.open(app_link, '_blank')}
+          className={`bg-tertiary rounded-2xl p-5 h-[550px] flex justify-between flex-col gap-5 cursor-pointer`}
+          role="link"
+          tabIndex={0}
+          aria-label={app_link ? 'View the demo of the project' : ''}
         >
-          <a target='_blank' href={app_link ? app_link : ''} aria-label={app_link ? 'View the demo of the project' : ''}>
-            <div className={`bg-tertiary rounded-2xl p-5 h-[550px] flex justify-between flex-col gap-5`} >
-              <picture>
-                <source srcSet={imageWebp} type='image/webp'/>
-                <img className='w-full h-[230px] rounded-2xl object-cover' src={image} alt="project preview" loading="lazy"/>
-              </picture>
-              
-              <div className='flex gap-2 items-center'>
-                <h3 className='text-white font-bold sm:text-[24px] text-[20px]'>{name}</h3>
-                <a className="link-icon link-icon-github" href={source_code_link}><VisuallyHidden>The link to the project on github</VisuallyHidden></a>
-              </div>
+          <picture>
+            <source srcSet={imageWebp} type='image/webp'/>
+            <img className='w-full h-[230px] rounded-2xl object-cover' src={image} alt="project preview" loading="lazy"/>
+          </picture>
+          
+          <div className='flex gap-2 items-center'>
+            <h3 className='text-white font-bold sm:text-[24px] text-[20px]'>{name}</h3>
+            {source_code_link && (
+              <a className="link-icon link-icon-github" href={source_code_link} target="_blank" rel="noopener noreferrer">
+                <VisuallyHidden>The link to the project on github</VisuallyHidden>
+              </a>
+            )}
+          </div>
 
-              <p className='text-secondary text-[14px]'>{description}</p>
-              <div className='flex gap-2 items-center'>{tags.map(({name}) => (<p className="tag border border-green-100 bg-green-200" key={name}>{name}</p>))}</div>
-            </div>
-          </a>
+          <p className='text-secondary text-[14px]'>{description}</p>
+          <div className='flex gap-2 items-center'>
+            {tags.map(({name}) => (
+              <p className="tag border border-green-100 bg-green-200" key={name}>{name}</p>
+            ))}
+          </div>
+        </div>
       </motion.div>
     </Tilt>
   );
-}
+};
+
 
 export default SectionWrapper(Projects, "projects", projectsContent )

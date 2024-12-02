@@ -8,14 +8,18 @@ import {
     boosta,
     freelance,
     desire,
+    airbnb,
     oculus,
     countries,
+    companies,
     comfortmasters,
     portfolio,
     blog,
+    airbnbWebp,
     desireWebp,
     oculusWebp,
     countriesWebp,
+    companiesWebp,
     comfortmastersWebp,
     portfolioWebp,
     blogWebp,
@@ -87,20 +91,26 @@ import {
   
   const projects = [
     {
-      name: "Oculus",
-      description: "The site serves for users to explore Oculus services, tailored for virtual reality experiences. Project was completed with educational aim.",
+      name: "Rent Home App",
+      description: "The site connects hosts who have accommodations or activities to offer with guests looking for unique places to stay or things to do",
       tags: [
         {
-          name: "javascript",
+          name: "next.ts",
         },
         {
-          name: "css",
+          name: "mongoDb",
+        },
+        {
+          name: "prisma",
+        },
+        {
+          name: "tailwind",
         },
       ],
-      image: oculus,
-      imageWebp: oculusWebp,
-      source_code_link: "https://github.com/Sierra555/Oculus",
-      app_link: "https://oculus-blush.vercel.app/",
+      image: airbnb,
+      imageWebp: airbnbWebp,
+      source_code_link: "https://https://github.com/Sierra555/my-airbnb",
+      app_link: "https://rent-properties-eight.vercel.app/",
     },
     {
       name: "Comfort Masters",
@@ -143,23 +153,6 @@ import {
       app_link: "https://my-portfolio-nu-green.vercel.app/",
     }, 
     {
-      name: "Desire",
-      description:
-        "A comprehensive platform that allows users to browse the furniture catalog, visit the store blog, and leave a message. Project was completed with educational aim.",
-      tags: [
-        {
-          name: "javascript",
-        },
-        {
-          name: "scss",
-        },
-      ],
-      image: desire,
-      imageWebp: desireWebp,
-      source_code_link: "https://github.com/Sierra555/desire",
-      app_link: "https://desire-ynho.vercel.app/",
-    },
-    {
       name: "REST Countries API",
       description:
         "Web application that enables users to search for a country, filter by region, toggle the color scheme between light and dark mode.",
@@ -178,6 +171,65 @@ import {
       imageWebp: countriesWebp,
       source_code_link: "https://github.com/Sierra555/rest-countries-api-with-color-theme-switcher-master",
       app_link: "https://rest-countries-api-with-color-theme-switcher-master-lake.vercel.app/",
+    }, 
+    {
+      name: "Oculus",
+      description: "The site serves for users to explore Oculus services, tailored for virtual reality experiences. Project was completed with educational aim. Non-commercial",
+      tags: [
+        {
+          name: "javascript",
+        },
+        {
+          name: "html5",
+        },
+        {
+          name: "css3",
+        },
+      ],
+      image: oculus,
+      imageWebp: oculusWebp,
+      source_code_link: "https://github.com/Sierra555/Oculus",
+      app_link: "https://oculus-blush.vercel.app/",
+    },
+    {
+      name: "Desire",
+      description:
+        "A comprehensive platform that allows users to browse the furniture catalog, visit the store blog, and leave a message. Project was completed with educational aim.",
+      tags: [
+        {
+          name: "javascript",
+        },
+        {
+          name: "html5",
+        },
+        {
+          name: "scss",
+        },
+      ],
+      image: desire,
+      imageWebp: desireWebp,
+      source_code_link: "https://github.com/Sierra555/desire",
+      app_link: "https://desire-ynho.vercel.app/",
+    },
+    {
+      name: "Companies Mosaic App",
+      description:
+        "A web application built with React and Tailwind CSS that displays information on companies using a customizable mosaic layout.",
+      tags: [
+        {
+          name: "react-mosaic.ts",
+        },
+        {
+          name: "tailwind",
+        },
+        {
+          name: "docker",
+        },
+      ],
+      image: companies,
+      imageWebp: companiesWebp,
+      source_code_link: "https://github.com/Sierra555/companies",
+      app_link: "https://companies-mosaic-app.vercel.app/",
     }, 
     {
       name: "Blog Project",
