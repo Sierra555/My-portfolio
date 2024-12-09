@@ -63,7 +63,7 @@ const ProjectCard = ({ index, name, description, tags, image, imageWebp, source_
           </div>
 
           <p className='text-secondary text-[14px]'>{description}</p>
-          <div className='flex gap-2 items-center'>
+          <div className='flex gap-2 items-center overflow-x-auto'>
             {tags.map(({name}) => (
               <p className="tag border border-green-100 bg-green-200" key={name}>{name}</p>
             ))}
