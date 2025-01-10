@@ -6,6 +6,7 @@ import { range } from '../utils'
 
 const Slider = ({ cards, Component, sliderParam, cardParam }) => {
     const [cardIndex, setCardIndex] = useState(0);
+    const { isDesktop } = useIsMobile();
     const touchStartX = useRef(0);
     const touchEndX = useRef(0);
 
@@ -69,7 +70,9 @@ const Slider = ({ cards, Component, sliderParam, cardParam }) => {
                     )}
                 </motion.div>
                 </div>
-                <AnimatePresence initial={false}>
+                {isDesktop && (
+                    <>
+                        <AnimatePresence initial={false}>
                         {cardIndex > 0 && (
                             <motion.button 
                                 initial={{ opacity: 0 }}
@@ -101,6 +104,8 @@ const Slider = ({ cards, Component, sliderParam, cardParam }) => {
                         ><ArrowBigRight aria-hidden/></motion.button>
                         )}
                     </AnimatePresence>
+                    </>
+                )}
                 <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
                     {dotsToDisplay.map((_, index) => (
                         <motion.div
