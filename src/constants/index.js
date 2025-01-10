@@ -247,7 +247,7 @@ import {
       app_link: "https://desire-ynho.vercel.app/",
     },
     {
-      name: "Companies Mosaic App",
+      name: "Companies Mosaic",
       description:
         "A web application built with React and Tailwind CSS that displays information on companies using a customizable mosaic layout.",
       tags: [
