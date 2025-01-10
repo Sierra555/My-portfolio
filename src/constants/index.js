@@ -83,8 +83,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Developed a full-stack project, implementing responsive design."
+        "Developed a full-stack project, an accessible and responsive custom e-commerce website with a high performance.",
+        "Created a personal portfolio using React, React-three to showcase projects and skills, enhancing visibility to potential clients and employers.",
+        "Developed a home rent app in Next.js, with an ablitiy to book/cancel property reservation and lease out your own property. Implemented an authentication functionality with Next-Auth.",
+        "Currently working on commericial project, utilizing Next.js, MongoDb, Prisma, Nodemailer. Presentation website aimed at promoting through Google Ads.",
       ],
       tags: ["React.js", "JavaScript", "Html", "SCSS", "Tailwind", "Git", "Google Apps Script"],
     },
