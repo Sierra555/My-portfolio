@@ -4,7 +4,6 @@ import { projects } from "../constants";
 import { Tilt } from "react-tilt";
 import { motion } from 'framer-motion';
 import { fadeIn } from "../utils/motion";
-import VisuallyHidden from '../components/VisuallyHidden/VisuallyHidden';
 import { Slider } from '../components';
 import useIsMobile from "../hooks/useIsMobile";
 
@@ -56,7 +55,7 @@ const ProjectCard = ({ index, name, description, tags, image, imageWebp, source_
           <div className='flex gap-2 items-center'>
             <h3 className='text-white font-bold sm:text-[24px] text-[20px]'>{name}</h3>
             {source_code_link && (
-              <a className="link-icon link-icon-github z-10" aria-label="The link to the project on GitHub" 
+              <a className="link-icon link-icon-github" aria-label="The link to the project on GitHub" 
               href={source_code_link} target="_blank" rel="noopener noreferrer"></a>
             )}
           </div>
