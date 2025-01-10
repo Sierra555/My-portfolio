@@ -17,7 +17,7 @@ const Projects = () => {
   const { isMobile, isTablet, isDesktop } = useIsMobile();
 
 const cardParam = {
-  width: isMobile ? 282 : (isTablet ? 600 : 362),
+  width: isMobile ? 300 : (isTablet ? 600 : 362),
   cardsToDisplay: isDesktop ? 3 : 1,
   gap: 30,
 }
