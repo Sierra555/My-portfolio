@@ -56,9 +56,8 @@ const ProjectCard = ({ index, name, description, tags, image, imageWebp, source_
           <div className='flex gap-2 items-center'>
             <h3 className='text-white font-bold sm:text-[24px] text-[20px]'>{name}</h3>
             {source_code_link && (
-              <a className="link-icon link-icon-github" href={source_code_link} target="_blank" rel="noopener noreferrer">
-                <VisuallyHidden>The link to the project on github</VisuallyHidden>
-              </a>
+              <a className="link-icon link-icon-github z-10" aria-label="The link to the project on GitHub" 
+              href={source_code_link} target="_blank" rel="noopener noreferrer"></a>
             )}
           </div>
 

@@ -8,6 +8,7 @@ import {
     boosta,
     freelance,
     desire,
+    lpg,
     airbnb,
     oculus,
     countries,
@@ -15,6 +16,7 @@ import {
     comfortmasters,
     portfolio,
     blog,
+    lpgWebp,
     airbnbWebp,
     desireWebp,
     oculusWebp,
@@ -91,11 +93,42 @@ import {
   
   const projects = [
     {
+      name: "GasMaster",
+      description: "The site provides info about lpg service and the form to contact the master",
+      tags: [
+        {
+          name: "next.js",
+        },
+        {
+          name: "typescript",
+        },
+        {
+          name: "mongoDb",
+        },
+        {
+          name: "prisma",
+        },
+        {
+          name: "tailwind",
+        },
+        {
+          name: "nodemailer",
+        },
+      ],
+      image: lpg,
+      imageWebp: lpgWebp,
+      source_code_link: "https://github.com/Sierra555/lpg-service",
+      app_link: "https://gas-master.vercel.app/",
+    },
+    {
       name: "Rent Home App",
       description: "The site connects hosts who have accommodations or activities to offer with guests looking for unique places to stay or things to do",
       tags: [
         {
-          name: "next.ts",
+          name: "next.js",
+        },
+        {
+          name: "typescript",
         },
         {
           name: "mongoDb",

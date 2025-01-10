@@ -68,7 +68,8 @@ const Slider = ({ cards, Component, sliderParam, cardParam }) => {
                     {cardIndex > 0 && (
                         <motion.button 
                             initial={{ opacity: 0 }}
-                            animate={{ opacity: 0.7 }}
+                            animate={{ opacity: 0.5 }}
+                            transition={{ duration: 0.1 }}
                             exit={{ opacity: 0, pointerEvents: 'none' }}
                             whileHover={{ opacity: 1 }}
                             whileFocus={{ opacity: 1 }}
@@ -83,7 +84,8 @@ const Slider = ({ cards, Component, sliderParam, cardParam }) => {
                     {cardIndex < cards.length - cardParam.cardsToDisplay && (
                         <motion.button 
                             initial={{ opacity: 0 }}
-                            animate={{ opacity: 0.7 }}
+                            animate={{ opacity: 0.5 }}
+                            transition={{ duration: 0.1 }}
                             exit={{ opacity: 0, pointerEvents: 'none' }}
                             whileHover={{ opacity: 1 }}
                             whileFocus={{ opacity: 1 }}
