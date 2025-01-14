@@ -144,7 +144,7 @@ import {
       ],
       image: airbnb,
       imageWebp: airbnbWebp,
-      source_code_link: "https://https://github.com/Sierra555/my-airbnb",
+      source_code_link: "https://github.com/Sierra555/my-airbnb",
       app_link: "https://rent-properties-eight.vercel.app/",
     },
     {

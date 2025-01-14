@@ -41,7 +41,10 @@ const ProjectCard = ({ index, name, description, tags, image, imageWebp, source_
           className='rounded-2xl p-[1px] bg-secondary relative'
       >
         <div 
-          onClick={() => app_link && window.open(app_link, '_blank')}
+          onClick={(e) => {
+            e.preventDefault();
+            app_link && window.open(app_link, '_blank')
+          }} 
           className={`bg-tertiary rounded-2xl p-5 h-[550px] flex justify-between flex-col gap-5 cursor-pointer`}
           role="link"
           tabIndex={0}
@@ -55,8 +58,14 @@ const ProjectCard = ({ index, name, description, tags, image, imageWebp, source_
           <div className='flex gap-2 items-center'>
             <h3 className='text-white font-bold sm:text-[24px] text-[20px]'>{name}</h3>
             {source_code_link && (
-              <a className="link-icon link-icon-github p-3" aria-label="The link to the project on GitHub" 
-              href={source_code_link} target="_blank" rel="noopener noreferrer"></a>
+              <div 
+                onClick={(e) => {
+                  e.preventDefault();
+                  source_code_link && window.open(source_code_link, '_blank')
+                }} 
+                className="link-icon link-icon-github p-3" 
+                aria-label="The link to the project on GitHub" 
+              ></div>
             )}
           </div>
 
