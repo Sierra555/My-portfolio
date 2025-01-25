@@ -8,6 +8,7 @@ import {
     boosta,
     freelance,
     desire,
+    techstore,
     lpg,
     airbnb,
     oculus,
@@ -17,6 +18,7 @@ import {
     portfolio,
     blog,
     lpgWebp,
+    techstoreWebp,
     airbnbWebp,
     desireWebp,
     oculusWebp,
@@ -95,6 +97,31 @@ import {
   
   
   const projects = [
+    {
+      name: "Techstore",
+      description: "An e-commerce shopping platform using Next.js with integrated sandbox environments for PayPal and Stripe payment methods, ensuring secure and seamless transactions. In development 🛠️",
+      tags: [
+        {
+          name: "next.js",
+        },
+        {
+          name: "typescript",
+        },
+        {
+          name: "prisma",
+        },
+        {
+          name: "tailwind",
+        },
+        {
+          name: "shadcn/ui",
+        },
+      ],
+      image: techstore,
+      imageWebp: techstoreWebp,
+      source_code_link: "https://github.com/Sierra555/techstore",
+      app_link: "https://techstore-woad.vercel.app/",
+    },
     {
       name: "GasMaster",
       description: "The site provides info about lpg service and the form to contact the master",

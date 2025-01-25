@@ -13,6 +13,7 @@ import logo2x from './logo2x.png';
 import boosta from "./company/boosta.png";
 import freelance from "./company/freelance.png";
 
+import techstore from "./projects/techstore.png";
 import lpg from "./projects/lpg-service.png";
 import airbnb from "./projects/airbnb.png";
 import oculus from "./projects/oculus.png";
@@ -22,6 +23,7 @@ import companies from "./projects/companies.png";
 import comfortmasters from "./projects/comfortmasters.png";
 import portfolio from "./projects/portfolio.png";
 import blog from "./projects/blog.png";
+import techstoreWebp from "./projects/techstore.webp";
 import lpgWebp from "./projects/lpg-service.webp";
 import airbnbWebp from "./projects/airbnb.webp";
 import oculusWebp from "./projects/oculus.webp";
@@ -47,6 +49,7 @@ export {
   logo2x,
   boosta,
   freelance,
+  techstore,
   lpg,
   airbnb,
   oculus,
@@ -56,6 +59,7 @@ export {
   comfortmasters,
   portfolio,
   blog,
+  techstoreWebp,
   lpgWebp,
   airbnbWebp,
   desireWebp,
