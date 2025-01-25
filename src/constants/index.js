@@ -73,6 +73,7 @@ import {
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products. Consulting them on project details from a front-end perspective and proposing own ideas.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers. Visiting lectures, presentations and pair programming sessions",
+        "Developed a website from scratch and successfully integrated it within an existing project, ensuring seamless functionality and user experience."
       ],
       tags: ["TypeScript", "React.js", "jQuery", "JavaScript", "Twig", "SCSS", "Git", "Docker"],
     },
@@ -83,12 +84,12 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Present",
       points: [
-        "Developed a full-stack project, an accessible and responsive custom e-commerce website with a high performance.",
+        "Developed a full-stack project for a building reconstruction company, an accessible and responsive custom website with a high performance.",
         "Created a personal portfolio using React, React-three to showcase projects and skills, enhancing visibility to potential clients and employers.",
-        "Developed a home rent app in Next.js, with an ablitiy to book/cancel property reservation and lease out your own property. Implemented an authentication functionality with Next-Auth.",
-        "Currently working on commericial project, utilizing Next.js, MongoDb, Prisma, Nodemailer. Presentation website aimed at promoting through Google Ads.",
+        "Developed a full-stack commericial project, utilizing Next.js, MongoDb, Prisma, Nodemailer. Presentation website aimed at promoting through Google Ads.",
+        "Developed an e-commerce shopping platform using Next.js with integrated sandbox environments for PayPal and Stripe payment methods, ensuring secure and seamless transactions.",
       ],
-      tags: ["React.js", "JavaScript", "Html", "SCSS", "Tailwind", "Git", "Google Apps Script"],
+      tags: ["React.js", "Next.js", "TypeScript", "JavaScript", "Tailwind", "SCSS",  "Git", "Google Apps Script"],
     },
   ];
   
