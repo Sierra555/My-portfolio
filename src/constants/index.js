@@ -10,6 +10,7 @@ import {
     desire,
     techstore,
     lpg,
+    findjob,
     airbnb,
     oculus,
     countries,
@@ -18,6 +19,7 @@ import {
     portfolio,
     blog,
     lpgWebp,
+    findjobWebp,
     techstoreWebp,
     airbnbWebp,
     desireWebp,
@@ -123,6 +125,53 @@ import {
       app_link: "https://techstore-woad.vercel.app/",
     },
     {
+      name: "Find Job",
+      description: "Find Vue Job is a job listing application to find or post a job vacancies.",
+      tags: [
+        {
+          name: "vue.js",
+        },
+        {
+          name: "express",
+        },
+        {
+          name: "mongoDb",
+        },
+        {
+          name: "tailwind",
+        },
+      ],
+      image: findjob,
+      imageWebp: findjobWebp,
+      source_code_link: "https://github.com/Sierra555/my-vue-app",
+      app_link: "https://find-vue-job.onrender.com/",
+    },
+    {
+      name: "Rent Home App",
+      description: "The site connects hosts who have accommodations or activities to offer with guests looking for unique places to stay or things to do",
+      tags: [
+        {
+          name: "next.js",
+        },
+        {
+          name: "typescript",
+        },
+        {
+          name: "mongoDb",
+        },
+        {
+          name: "prisma",
+        },
+        {
+          name: "tailwind",
+        },
+      ],
+      image: airbnb,
+      imageWebp: airbnbWebp,
+      source_code_link: "https://github.com/Sierra555/my-airbnb",
+      app_link: "https://rent-properties-eight.vercel.app/",
+    },
+    {
       name: "GasMaster",
       description: "The site provides info about lpg service and the form to contact the master",
       tags: [
@@ -149,31 +198,6 @@ import {
       imageWebp: lpgWebp,
       source_code_link: "https://github.com/Sierra555/lpg-service",
       app_link: "https://gas-master.vercel.app/",
-    },
-    {
-      name: "Rent Home App",
-      description: "The site connects hosts who have accommodations or activities to offer with guests looking for unique places to stay or things to do",
-      tags: [
-        {
-          name: "next.js",
-        },
-        {
-          name: "typescript",
-        },
-        {
-          name: "mongoDb",
-        },
-        {
-          name: "prisma",
-        },
-        {
-          name: "tailwind",
-        },
-      ],
-      image: airbnb,
-      imageWebp: airbnbWebp,
-      source_code_link: "https://github.com/Sierra555/my-airbnb",
-      app_link: "https://rent-properties-eight.vercel.app/",
     },
     {
       name: "Comfort Masters",

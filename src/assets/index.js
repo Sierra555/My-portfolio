@@ -15,6 +15,7 @@ import freelance from "./company/freelance.png";
 
 import techstore from "./projects/techstore.png";
 import lpg from "./projects/lpg-service.png";
+import findjob from "./projects/find-job.png";
 import airbnb from "./projects/airbnb.png";
 import oculus from "./projects/oculus.png";
 import desire from "./projects/desire.png";
@@ -25,6 +26,7 @@ import portfolio from "./projects/portfolio.png";
 import blog from "./projects/blog.png";
 import techstoreWebp from "./projects/techstore.webp";
 import lpgWebp from "./projects/lpg-service.webp";
+import findjobWebp from "./projects/find-job.webp";
 import airbnbWebp from "./projects/airbnb.webp";
 import oculusWebp from "./projects/oculus.webp";
 import desireWebp from "./projects/desire.webp";
@@ -51,6 +53,7 @@ export {
   freelance,
   techstore,
   lpg,
+  findjob,
   airbnb,
   oculus,
   desire,
@@ -61,6 +64,7 @@ export {
   blog,
   techstoreWebp,
   lpgWebp,
+  findjobWebp,
   airbnbWebp,
   desireWebp,
   oculusWebp,
