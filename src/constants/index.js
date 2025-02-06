@@ -168,8 +168,8 @@ import {
           name: "primevue/ui",
         }
       ],
-      image: findjob,
-      imageWebp: findjobWebp,
+      image: learnVue,
+      imageWebp: learnVueWebp,
       source_code_link: "https://github.com/Sierra555/learn-vue-app",
       app_link: "https://learn-vue-app.onrender.com/",
     },
