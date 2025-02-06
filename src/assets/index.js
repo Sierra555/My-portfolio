@@ -15,6 +15,7 @@ import freelance from "./company/freelance.png";
 
 import techstore from "./projects/techstore.png";
 import lpg from "./projects/lpg-service.png";
+import learnVue from "./projects/learn-vue.png";
 import findjob from "./projects/find-job.png";
 import airbnb from "./projects/airbnb.png";
 import oculus from "./projects/oculus.png";
@@ -26,6 +27,7 @@ import portfolio from "./projects/portfolio.png";
 import blog from "./projects/blog.png";
 import techstoreWebp from "./projects/techstore.webp";
 import lpgWebp from "./projects/lpg-service.webp";
+import learnVueWebp from "./projects/learn-vue.webp";
 import findjobWebp from "./projects/find-job.webp";
 import airbnbWebp from "./projects/airbnb.webp";
 import oculusWebp from "./projects/oculus.webp";
@@ -53,6 +55,7 @@ export {
   freelance,
   techstore,
   lpg,
+  learnVue,
   findjob,
   airbnb,
   oculus,
@@ -64,6 +67,7 @@ export {
   blog,
   techstoreWebp,
   lpgWebp,
+  learnVueWebp,
   findjobWebp,
   airbnbWebp,
   desireWebp,

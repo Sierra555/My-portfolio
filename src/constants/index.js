@@ -10,6 +10,7 @@ import {
     desire,
     techstore,
     lpg,
+    learnVue,
     findjob,
     airbnb,
     oculus,
@@ -19,6 +20,7 @@ import {
     portfolio,
     blog,
     lpgWebp,
+    learnVueWebp,
     findjobWebp,
     techstoreWebp,
     airbnbWebp,
@@ -145,6 +147,31 @@ import {
       imageWebp: findjobWebp,
       source_code_link: "https://github.com/Sierra555/my-vue-app",
       app_link: "https://find-vue-job.onrender.com/",
+    },
+    {
+      name: "Learn Vue with AI",
+      description: "Platform, which integrates with an AI service to generate various types of coding tasks related to Vue.js 3.",
+      tags: [
+        {
+          name: "vue.js",
+        },
+        {
+          name: "express",
+        },
+        {
+          name: "node.js",
+        },
+        {
+          name: "tailwind",
+        },
+        {
+          name: "primevue/ui",
+        }
+      ],
+      image: findjob,
+      imageWebp: findjobWebp,
+      source_code_link: "https://github.com/Sierra555/learn-vue-app",
+      app_link: "https://learn-vue-app.onrender.com/",
     },
     {
       name: "Rent Home App",
