@@ -6,6 +6,7 @@ import {
 	web,
 	webWebp,
 	boosta,
+	sombra,
 	freelance,
 	desire,
 	techstore,
@@ -19,6 +20,7 @@ import {
 	comfortmasters,
 	portfolio,
 	blog,
+	ticket,
 	lpgWebp,
 	learnVueWebp,
 	findjobWebp,
@@ -31,6 +33,7 @@ import {
 	comfortmastersWebp,
 	portfolioWebp,
 	blogWebp,
+	ticketWebp,
 } from "../assets";
 
 export const navLinks = [
@@ -89,6 +92,7 @@ const experiences = [
 			"SCSS",
 			"Git",
 			"Docker",
+			"Figma",
 		],
 	},
 	{
@@ -96,12 +100,13 @@ const experiences = [
 		company_name: "Freelance",
 		icon: freelance,
 		iconBg: "#E6DEDD",
-		date: "Jan 2024 - Present",
+		date: "Jan 2024 - Jan 2025",
 		points: [
 			"Developed a full-stack project for a building reconstruction company, an accessible and responsive custom website with a high performance.",
 			"Created a personal portfolio using React, React-three to showcase projects and skills, enhancing visibility to potential clients and employers.",
 			"Developed a full-stack commericial project, utilizing Next.js, MongoDb, Prisma, Nodemailer. Presentation website aimed at promoting through Google Ads.",
 			"Developed an e-commerce shopping platform using Next.js with integrated sandbox environments for PayPal and Stripe payment methods, ensuring secure and seamless transactions.",
+			"Built a non-commercial full-stack home rent web application using the latest web development technologies including Next.js, Tailwind, Prisma, MongoDB, and NextAuth",
 		],
 		tags: [
 			"React.js",
@@ -112,6 +117,29 @@ const experiences = [
 			"SCSS",
 			"Git",
 			"Google Apps Script",
+		],
+	},
+	{
+		title: "Software Engineer",
+		company_name: "Sombra",
+		icon: sombra,
+		iconBg: "#E6DEDD",
+		date: "Feb 2025 - Present",
+		points: [
+			"Worked on corporate website development project, rebuilding the existing Sombra website with a new design and WordPress integration for streamlined content management.",
+			"Implemented a fully adaptive design using Tailwind CSS, SCSS, and JavaScript, with a strong focus on accessibility, performance, and cross-browser compatibility.",
+			"Contributed to PHP code for dynamic HTML generation and Gutenberg block integration, supporting flexible and modular content editing",
+			"Worked closely with the marketing team, supporting them in content migration to the new WordPress-based CMS.",
+			"Customized the WordPress dashboard to simplify content updates and empower non-technical users to manage pages independently.",
+		],
+		tags: [
+			"JavaScript",
+			"WordPress",
+			"PHP",
+			"Tailwind CSS",
+			"SCSS",
+			"Git",
+			"Figma",
 		],
 	},
 ];
@@ -143,6 +171,34 @@ const projects = [
 		source_code_link:
 			"https://github.com/Sierra555/techstore",
 		app_link: "https://techstore-woad.vercel.app/",
+	},
+	{
+		name: "Ticket system",
+		description:
+			"A simple and fast support ticket system built with Next.js 14, TypeScript, Prisma ORM, Neon Postgres database, and Sentry for error tracking and performance monitoring.",
+		tags: [
+			{
+				name: "next.js",
+			},
+			{
+				name: "typescript",
+			},
+			{
+				name: "sentry",
+			},
+			{
+				name: "neon postgres db",
+			},
+			{
+				name: "prisma",
+			},
+		],
+		image: ticket,
+		imageWebp: ticketWebp,
+		source_code_link:
+			"https://github.com/Sierra555/ticket-system",
+		app_link:
+			"https://ticket-system-b1r1yqvjc-sierra555s-projects.vercel.app/",
 	},
 	{
 		name: "Rent Home App",
