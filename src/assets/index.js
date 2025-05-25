@@ -27,6 +27,7 @@ import comfortmasters from "./projects/comfortmasters.png";
 import portfolio from "./projects/portfolio.png";
 import blog from "./projects/blog.png";
 import ticket from "./projects/ticket.png";
+import chatAi from "./projects/chat-ai.png";
 import techstoreWebp from "./projects/techstore.webp";
 import lpgWebp from "./projects/lpg-service.webp";
 import learnVueWebp from "./projects/learn-vue.webp";
@@ -40,6 +41,7 @@ import comfortmastersWebp from "./projects/comfortmasters.webp";
 import portfolioWebp from "./projects/portfolio.webp";
 import blogWebp from "./projects/blog.webp";
 import ticketWebp from "./projects/ticket.webp";
+import chatAiWebp from "./projects/chat-ai.webp";
 
 export {
 	creator,
@@ -58,6 +60,7 @@ export {
 	freelance,
 	techstore,
 	lpg,
+	chatAi,
 	learnVue,
 	findjob,
 	airbnb,
@@ -82,4 +85,5 @@ export {
 	portfolioWebp,
 	blogWebp,
 	ticketWebp,
+	chatAiWebp,
 };

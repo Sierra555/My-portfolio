@@ -146,6 +146,39 @@ const experiences = [
 
 const projects = [
 	{
+		name: "Chat-ai",
+		description:
+			"A full stack app that works similar to ChatGPT and answers prompts and keeps the context throughout the conversation, based on Gemini AI",
+		tags: [
+			{
+				name: "vue.js",
+			},
+			{
+				name: "express",
+			},
+			{
+				name: "typescript",
+			},
+			{
+				name: "neon db",
+			},
+			{
+				name: "prisma",
+			},
+			{
+				name: "tailwind",
+			},
+			{
+				name: "pinia",
+			},
+		],
+		image: chatAi,
+		imageWebp: chatAiWebp,
+		source_code_link:
+			"https://github.com/Sierra555/chat-ai-api",
+		app_link: "https://chat-ai-ui-azure.vercel.app/",
+	},
+	{
 		name: "Techstore",
 		description:
 			"An e-commerce shopping platform using Next.js with integrated sandbox environments for PayPal and Stripe payment methods, ensuring secure and seamless transactions. In development 🛠️",

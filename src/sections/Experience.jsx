@@ -14,6 +14,8 @@ const experienceContent = {
 	subTitle: "What I have done so far in Frontend",
 };
 
+const customStyles = "max-w-none";
+
 const ExperienceCard = ({
 	experience,
 	setAnimationName,
