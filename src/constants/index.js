@@ -222,7 +222,7 @@ const projects = [
 				name: "sentry",
 			},
 			{
-				name: "neon postgres db",
+				name: "neon db",
 			},
 			{
 				name: "prisma",
