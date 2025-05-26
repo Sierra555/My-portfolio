@@ -22,6 +22,7 @@ import {
 	blog,
 	ticket,
 	lpgWebp,
+	chatAi,
 	learnVueWebp,
 	findjobWebp,
 	techstoreWebp,
@@ -34,6 +35,7 @@ import {
 	portfolioWebp,
 	blogWebp,
 	ticketWebp,
+	chatAiWebp,
 } from "../assets";
 
 export const navLinks = [
