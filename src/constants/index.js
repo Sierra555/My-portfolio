@@ -106,7 +106,7 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "Jan 2024 - Jan 2025",
 		points: [
-			"Developed a full-stack project for a building reconstruction company, an accessible and responsive custom website with a high performance.",
+			"Developed a full-stack commercia project for a building reconstruction company, an accessible and responsive custom website with a high performance.",
 			"Created a personal portfolio using React, React-three to showcase projects and skills, enhancing visibility to potential clients and employers.",
 			"Developed a full-stack commericial project, utilizing Next.js, MongoDb, Prisma, Nodemailer. Presentation website aimed at promoting through Google Ads.",
 			"Developed an e-commerce shopping platform using Next.js with integrated sandbox environments for PayPal and Stripe payment methods, ensuring secure and seamless transactions.",
@@ -114,6 +114,7 @@ const experiences = [
 		],
 		tags: [
 			"React.js",
+			"Node.js",
 			"Next.js",
 			"TypeScript",
 			"JavaScript",
@@ -130,13 +131,17 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "Feb 2025 - Present",
 		points: [
+			"Maintained and contributed to the existing React.js website",
 			"Worked on corporate website development project, rebuilding the existing Sombra website with a new design and WordPress integration for streamlined content management.",
-			"Implemented a fully adaptive design using Tailwind CSS, SCSS, and JavaScript, with a strong focus on accessibility, performance, and cross-browser compatibility.",
+			"Implemented a fully adaptive design using PHP, JavaScript and Tailwind CSS, with a strong focus on accessibility, performance, and cross-browser compatibility.",
 			"Contributed to PHP code for dynamic HTML generation and Gutenberg block integration, supporting flexible and modular content editing",
 			"Worked closely with the marketing team, supporting them in content migration to the new WordPress-based CMS.",
 			"Customized the WordPress dashboard to simplify content updates and empower non-technical users to manage pages independently.",
+			"Engaged in a part-time project for a Canadian bank, helping to update 80+ tax-paid forms.",
 		],
 		tags: [
+			"React.js",
+			"Node.js",
 			"JavaScript",
 			"WordPress",
 			"PHP",
