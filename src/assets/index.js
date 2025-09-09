@@ -28,6 +28,7 @@ import portfolio from "./projects/portfolio.png";
 import blog from "./projects/blog.png";
 import ticket from "./projects/ticket.png";
 import chatAi from "./projects/chat-ai.png";
+import mern from "./projects/mern.png";
 import techstoreWebp from "./projects/techstore.webp";
 import lpgWebp from "./projects/lpg-service.webp";
 import learnVueWebp from "./projects/learn-vue.webp";
@@ -42,6 +43,7 @@ import portfolioWebp from "./projects/portfolio.webp";
 import blogWebp from "./projects/blog.webp";
 import ticketWebp from "./projects/ticket.webp";
 import chatAiWebp from "./projects/chat-ai.webp";
+import mernWebp from "./projects/mernWebp.webp";
 
 export {
 	creator,
@@ -72,6 +74,7 @@ export {
 	portfolio,
 	blog,
 	ticket,
+	mern,
 	techstoreWebp,
 	lpgWebp,
 	learnVueWebp,
@@ -86,4 +89,5 @@ export {
 	blogWebp,
 	ticketWebp,
 	chatAiWebp,
+	mernWebp,
 };

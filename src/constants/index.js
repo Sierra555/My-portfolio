@@ -23,6 +23,7 @@ import {
 	ticket,
 	lpgWebp,
 	chatAi,
+	mern,
 	learnVueWebp,
 	findjobWebp,
 	techstoreWebp,
@@ -36,6 +37,7 @@ import {
 	blogWebp,
 	ticketWebp,
 	chatAiWebp,
+	mernWebp,
 } from "../assets";
 
 export const navLinks = [
@@ -147,6 +149,30 @@ const experiences = [
 ];
 
 const projects = [
+	{
+		name: "MERN Authentication boilerplace",
+		description:
+			"This is a starter app for a MERN stack application with authentication",
+		tags: [
+			{
+				name: "Node.js(Express)",
+			},
+			{
+				name: "MongoDB",
+			},
+			{
+				name: "React.js",
+			},
+			{
+				name: "React-Bootstrap",
+			},
+		],
+		image: mern,
+		imageWebp: mernWebp,
+		source_code_link:
+			"https://github.com/Sierra555/mern/tree/main",
+		app_link: "https://mern-24ql.onrender.com/",
+	},
 	{
 		name: "Chat-ai",
 		description:
