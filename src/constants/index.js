@@ -241,7 +241,7 @@ const projects = [
 	{
 		name: "Ticket system",
 		description:
-			"A simple and fast support ticket system built with Next.js 14, TypeScript, Prisma ORM, Neon Postgres database, and Sentry for error tracking and performance monitoring.",
+			"A simple and fast support ticket system built with Next.js, TypeScript, Prisma ORM, Neon Postgres database, and Sentry for error tracking and performance monitoring.",
 		tags: [
 			{
 				name: "next.js",
