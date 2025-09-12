@@ -29,6 +29,7 @@ import blog from "./projects/blog.png";
 import ticket from "./projects/ticket.png";
 import chatAi from "./projects/chat-ai.png";
 import mern from "./projects/mern.png";
+import mathGame from "./projects/math-game.png";
 import techstoreWebp from "./projects/techstore.webp";
 import lpgWebp from "./projects/lpg-service.webp";
 import learnVueWebp from "./projects/learn-vue.webp";
@@ -44,6 +45,7 @@ import blogWebp from "./projects/blog.webp";
 import ticketWebp from "./projects/ticket.webp";
 import chatAiWebp from "./projects/chat-ai.webp";
 import mernWebp from "./projects/mernWebp.webp";
+import mathGameWebp from "./projects/math-gameWebp.webp";
 
 export {
 	creator,

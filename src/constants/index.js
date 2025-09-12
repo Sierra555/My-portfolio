@@ -24,6 +24,7 @@ import {
 	lpgWebp,
 	chatAi,
 	mern,
+	mathGame,
 	learnVueWebp,
 	findjobWebp,
 	techstoreWebp,
@@ -38,6 +39,7 @@ import {
 	ticketWebp,
 	chatAiWebp,
 	mernWebp,
+	mathGameWebp,
 } from "../assets";
 
 export const navLinks = [
@@ -154,6 +156,27 @@ const experiences = [
 ];
 
 const projects = [
+	{
+		name: "An interactive project for practicing arithmetic speed.",
+		description:
+			"The user types the answer into the input field and clicks the 'Check answer' button",
+		tags: [
+			{
+				name: "JavaScript",
+			},
+			{
+				name: "Html",
+			},
+			{
+				name: "css",
+			},
+		],
+		image: mathGame,
+		imageWebp: mathGameWebp,
+		source_code_link:
+			"https://github.com/Sierra555/Math-game",
+		app_link: "https://math-game-puce.vercel.app/",
+	},
 	{
 		name: "MERN Authentication boilerplace",
 		description:
