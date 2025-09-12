@@ -77,6 +77,7 @@ export {
 	blog,
 	ticket,
 	mern,
+	mathGame,
 	techstoreWebp,
 	lpgWebp,
 	learnVueWebp,
@@ -92,4 +93,5 @@ export {
 	ticketWebp,
 	chatAiWebp,
 	mernWebp,
+	mathGameWebp,
 };
