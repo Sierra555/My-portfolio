@@ -13,6 +13,7 @@ import logo2x from "./logo2x.png";
 import boosta from "./company/boosta.png";
 import freelance from "./company/freelance.png";
 import sombra from "./company/sombra.svg";
+import insula from "./company/insula.png";
 
 import techstore from "./projects/techstore.png";
 import lpg from "./projects/lpg-service.png";
@@ -62,6 +63,7 @@ export {
 	boosta,
 	sombra,
 	freelance,
+	insula,
 	techstore,
 	lpg,
 	chatAi,
