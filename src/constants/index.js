@@ -70,7 +70,7 @@ const services = [
 		webpIcon: mobileWebp,
 	},
 	{
-		title: "Fronted Developer",
+		title: "Frontend Developer",
 		icon: creator,
 		webpIcon: creatorWebp,
 	},
@@ -78,7 +78,7 @@ const services = [
 
 const experiences = [
 	{
-		title: "Fronted Developer",
+		title: "Frontend Developer",
 		company_name: "Boosta",
 		icon: boosta,
 		iconBg: "#383E56",
@@ -102,7 +102,7 @@ const experiences = [
 		],
 	},
 	{
-		title: "Fronted Developer",
+		title: "Frontend Developer",
 		company_name: "Freelance",
 		icon: freelance,
 		iconBg: "#E6DEDD",
@@ -152,7 +152,7 @@ const experiences = [
 		],
 	},
 	{
-		title: "Fronted Developer",
+		title: "Frontend Developer",
 		company_name: "InsulaLabs",
 		icon: insula,
 		iconBg: "#E6DEDD",
