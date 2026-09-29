@@ -29,7 +29,7 @@ import portfolio from "./projects/portfolio.png";
 import blog from "./projects/blog.png";
 import ticket from "./projects/ticket.png";
 import chatAi from "./projects/chat-ai.png";
-import mern from "./projects/mern.png";
+import sombraInc from "./projects/sombraInc.png";
 import mathGame from "./projects/math-game.png";
 import techstoreWebp from "./projects/techstore.webp";
 import lpgWebp from "./projects/lpg-service.webp";
@@ -78,7 +78,7 @@ export {
 	portfolio,
 	blog,
 	ticket,
-	mern,
+	sombraInc,
 	mathGame,
 	techstoreWebp,
 	lpgWebp,

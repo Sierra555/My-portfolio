@@ -24,7 +24,7 @@ import {
 	ticket,
 	lpgWebp,
 	chatAi,
-	mern,
+	sombraInc,
 	mathGame,
 	learnVueWebp,
 	findjobWebp,
@@ -70,7 +70,7 @@ const services = [
 		webpIcon: mobileWebp,
 	},
 	{
-		title: "Content Creator",
+		title: "Fronted Developer",
 		icon: creator,
 		webpIcon: creatorWebp,
 	},
@@ -169,7 +169,7 @@ const experiences = [
 
 const projects = [
 	{
-		name: "An interactive project for practicing arithmetic speed.",
+		name: "An interactive project for practicing arithmetics.",
 		description:
 			"The user types the answer into the input field and clicks the 'Check answer' button",
 		tags: [
@@ -190,28 +190,22 @@ const projects = [
 		app_link: "https://math-game-puce.vercel.app/",
 	},
 	{
-		name: "MERN Authentication boilerplace",
+		name: "SombraInc corporate website",
 		description:
-			"This is a starter app for a MERN stack application with authentication",
+			"This is a corporate website for SombraInc, implemented with WordPress custom theme integration",
 		tags: [
 			{
-				name: "Node.js(Express)",
+				name: "JavaScript",
 			},
 			{
-				name: "MongoDB",
+				name: "WordPress",
 			},
 			{
-				name: "React.js",
-			},
-			{
-				name: "React-Bootstrap",
+				name: "Tailwind",
 			},
 		],
-		image: mern,
-		imageWebp: mernWebp,
-		source_code_link:
-			"https://github.com/Sierra555/mern/tree/main",
-		app_link: "https://mern-24ql.onrender.com/",
+		image: sombraInc,
+		app_link: "https://sombrainc.com/",
 	},
 	{
 		name: "Chat-ai",
@@ -225,16 +219,7 @@ const projects = [
 				name: "express",
 			},
 			{
-				name: "typescript",
-			},
-			{
 				name: "neon db",
-			},
-			{
-				name: "prisma",
-			},
-			{
-				name: "tailwind",
 			},
 			{
 				name: "pinia",
@@ -258,13 +243,7 @@ const projects = [
 				name: "typescript",
 			},
 			{
-				name: "prisma",
-			},
-			{
-				name: "tailwind",
-			},
-			{
-				name: "shadcn/ui",
+				name: "shadcn",
 			},
 		],
 		image: techstore,
@@ -280,9 +259,6 @@ const projects = [
 		tags: [
 			{
 				name: "next.js",
-			},
-			{
-				name: "typescript",
 			},
 			{
 				name: "sentry",
@@ -310,16 +286,10 @@ const projects = [
 				name: "next.js",
 			},
 			{
-				name: "typescript",
-			},
-			{
 				name: "mongoDb",
 			},
 			{
 				name: "prisma",
-			},
-			{
-				name: "tailwind",
 			},
 		],
 		image: airbnb,
@@ -337,19 +307,10 @@ const projects = [
 				name: "next.js",
 			},
 			{
-				name: "typescript",
-			},
-			{
 				name: "mongoDb",
 			},
 			{
 				name: "prisma",
-			},
-			{
-				name: "tailwind",
-			},
-			{
-				name: "nodemailer",
 			},
 		],
 		image: lpg,
@@ -372,9 +333,6 @@ const projects = [
 			{
 				name: "mongoDb",
 			},
-			{
-				name: "tailwind",
-			},
 		],
 		image: findjob,
 		imageWebp: findjobWebp,
@@ -395,12 +353,6 @@ const projects = [
 			},
 			{
 				name: "node.js",
-			},
-			{
-				name: "tailwind",
-			},
-			{
-				name: "primevue/ui",
 			},
 		],
 		image: learnVue,
