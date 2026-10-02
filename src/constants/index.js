@@ -124,33 +124,33 @@ const experiences = [
 			"SCSS",
 		],
 	},
-	// {
-	// 	title: "Software Engineer",
-	// 	company_name: "Sombra",
-	// 	icon: sombra,
-	// 	iconBg: "#E6DEDD",
-	// 	date: "Feb 2025 - Oct 2025",
-	// 	points: [
-	// 		"Implemented a fully adaptive design using JavaScript and Tailwind CSS, with a strong focus on accessibility, performance, and cross-browser compatibility.",
-	// 		"Improved page performance by 25% through assets and rendering optimizations, and increased Lighthouse scores by 30%.",
-	// 		"Contributed to PHP code for dynamic HTML generation and Gutenberg block integration, supporting flexible and modular content editing",
-	// 		"Maintained and contributed to the existing React.js / Next.js website",
-	// 		"Worked closely with the marketing team, supporting them in content migration to the new WordPress-based CMS.",
-	// 		"Customized the WordPress dashboard to simplify content updates and empower non-technical users to manage pages independently.",
-	// 		"Engaged in a project for a Canadian bank, helping to update and migrate 80+ tax-paid forms. to the new UI",
-	// 	],
-	// 	tags: [
-	// 		"JavaScript",
-	// 		"WordPress",
-	// 		"React",
-	// 		"Next.js",
-	// 		"PHP",
-	// 		"Tailwind CSS",
-	// 		"SCSS",
-	// 		"Git",
-	// 		"Figma",
-	// 	],
-	// },
+	{
+		title: "Software Engineer",
+		company_name: "Sombra",
+		icon: sombra,
+		iconBg: "#E6DEDD",
+		date: "Feb 2025 - Oct 2025",
+		points: [
+			"Implemented a fully adaptive design using JavaScript and Tailwind CSS, with a strong focus on accessibility, performance, and cross-browser compatibility.",
+			"Improved page performance by 25% through assets and rendering optimizations, and increased Lighthouse scores by 30%.",
+			"Contributed to PHP code for dynamic HTML generation and Gutenberg block integration, supporting flexible and modular content editing",
+			// "Maintained and contributed to the existing React.js / Next.js website",
+			"Worked closely with the marketing team, supporting them in content migration to the new WordPress-based CMS.",
+			"Customized the WordPress dashboard to simplify content updates and empower non-technical users to manage pages independently.",
+			// "Engaged in a project for a Canadian bank, helping to update and migrate 80+ tax-paid forms. to the new UI",
+		],
+		tags: [
+			"JavaScript",
+			"WordPress",
+			// "React",
+			// "Next.js",
+			"PHP",
+			"Tailwind CSS",
+			"SCSS",
+			"Git",
+			"Figma",
+		],
+	},
 	{
 		title: "Frontend Developer",
 		company_name: "InsulaLabs",
@@ -189,24 +189,24 @@ const projects = [
 			"https://github.com/Sierra555/Math-game",
 		app_link: "https://math-game-puce.vercel.app/",
 	},
-	{
-		name: "SombraInc corporate website",
-		description:
-			"This is a corporate website for SombraInc, implemented with WordPress custom theme integration",
-		tags: [
-			{
-				name: "JavaScript",
-			},
-			{
-				name: "WordPress",
-			},
-			{
-				name: "Tailwind",
-			},
-		],
-		image: sombraInc,
-		app_link: "https://sombrainc.com/",
-	},
+	// {
+	// 	name: "SombraInc corporate website",
+	// 	description:
+	// 		"This is a corporate website for SombraInc, implemented with WordPress custom theme integration",
+	// 	tags: [
+	// 		{
+	// 			name: "JavaScript",
+	// 		},
+	// 		{
+	// 			name: "WordPress",
+	// 		},
+	// 		{
+	// 			name: "Tailwind",
+	// 		},
+	// 	],
+	// 	image: sombraInc,
+	// 	app_link: "https://sombrainc.com/",
+	// },
 	{
 		name: "Chat-ai",
 		description:
