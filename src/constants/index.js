@@ -115,7 +115,7 @@ const experiences = [
 			"Developed a Vue.js + Node.js job listing application and an AI-powered coding-task generation platform for Vue.js 3.",
 		],
 		tags: [
-			"React.js",
+			"React",
 			"Node.js",
 			"Next.js",
 			"TypeScript",
@@ -240,7 +240,7 @@ const projects = [
 				name: "next.js",
 			},
 			{
-				name: "typescript",
+				name: "TypeScript",
 			},
 			{
 				name: "shadcn",
