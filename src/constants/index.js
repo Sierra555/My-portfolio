@@ -134,7 +134,7 @@ const experiences = [
 			"Implemented a fully adaptive design using JavaScript and Tailwind CSS, with a strong focus on accessibility, performance, and cross-browser compatibility.",
 			"Improved page performance by 25% through assets and rendering optimizations, and increased Lighthouse scores by 30%.",
 			"Contributed to PHP code for dynamic HTML generation and Gutenberg block integration, supporting flexible and modular content editing",
-			// "Maintained and contributed to the existing React.js / Next.js website",
+			"Maintained and contributed to the existing React.js / Next.js website",
 			"Worked closely with the marketing team, supporting them in content migration to the new WordPress-based CMS.",
 			"Customized the WordPress dashboard to simplify content updates and empower non-technical users to manage pages independently.",
 			// "Engaged in a project for a Canadian bank, helping to update and migrate 80+ tax-paid forms. to the new UI",
@@ -142,8 +142,8 @@ const experiences = [
 		tags: [
 			"JavaScript",
 			"WordPress",
-			// "React",
-			// "Next.js",
+			"React",
+			"Next.js",
 			"PHP",
 			"Tailwind CSS",
 			"SCSS",
@@ -158,7 +158,7 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "Oct 2025 - Oct 2026",
 		points: [
-			"Delivered frontend features across a multi-brand platform, maintaining consistency with the shared Angular component architecture while supporting brand-specific requirements.",
+			"Delivered frontend features across a multi-brand platform, maintaining consistency with the shared AngulaJs component architecture while supporting brand-specific requirements.",
 			"Developed complex, responsive, pixel-perfect layouts and adaptive UI patterns, ensuring consistent rendering across devices and browsers.",
 			"Conducted regular code reviews, testings, debugging, maintaining frontend code quality and consistency across brand implementations.",
 			"Supported onboarding of new team members by sharing technical knowledge, reviewing their work and helping them navigate the project architecture.",
