@@ -47,6 +47,7 @@ import ticketWebp from "./projects/ticket.webp";
 import chatAiWebp from "./projects/chat-ai.webp";
 import mernWebp from "./projects/mernWebp.webp";
 import mathGameWebp from "./projects/math-gameWebp.webp";
+import nutritrack from "./projects/nutritrack.jpg";
 
 export {
 	creator,
@@ -96,4 +97,5 @@ export {
 	chatAiWebp,
 	mernWebp,
 	mathGameWebp,
+	nutritrack,
 };

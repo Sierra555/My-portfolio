@@ -20,11 +20,12 @@ import {
 	companies,
 	comfortmasters,
 	// portfolio,
+	nutritrack,
 	blog,
 	ticket,
 	lpgWebp,
 	chatAi,
-	// sombraInc,
+	sombraInc,
 	mathGame,
 	learnVueWebp,
 	findjobWebp,
@@ -169,6 +170,21 @@ const experiences = [
 
 const projects = [
 	{
+		name: "NutriTrack",
+		description:
+			"The project is a macro tracking app called NutriTrack that allows users to add meals and track their macros. In development 🛠️ ",
+		tags: [
+			{
+				name: "React Native",
+			},
+			{
+				name: "Expo",
+			},
+		],
+		image: nutritrack,
+		source_code_link: "https://github.com/Sierra555/meals",
+	},
+	{
 		name: "An interactive project for practicing arithmetics.",
 		description:
 			"The user types the answer into the input field and clicks the 'Check answer' button",
@@ -189,24 +205,24 @@ const projects = [
 			"https://github.com/Sierra555/Math-game",
 		app_link: "https://math-game-puce.vercel.app/",
 	},
-	// {
-	// 	name: "SombraInc corporate website",
-	// 	description:
-	// 		"This is a corporate website for SombraInc, implemented with WordPress custom theme integration",
-	// 	tags: [
-	// 		{
-	// 			name: "JavaScript",
-	// 		},
-	// 		{
-	// 			name: "WordPress",
-	// 		},
-	// 		{
-	// 			name: "Tailwind",
-	// 		},
-	// 	],
-	// 	image: sombraInc,
-	// 	app_link: "https://sombrainc.com/",
-	// },
+	{
+		name: "SombraInc corporate website",
+		description:
+			"This is a corporate website for SombraInc, implemented with WordPress custom theme integration",
+		tags: [
+			{
+				name: "JavaScript",
+			},
+			{
+				name: "WordPress",
+			},
+			{
+				name: "Tailwind",
+			},
+		],
+		image: sombraInc,
+		app_link: "https://sombrainc.com/",
+	},
 	{
 		name: "Chat-ai",
 		description:
