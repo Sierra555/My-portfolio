@@ -150,6 +150,7 @@ const experiences = [
 			"SCSS",
 			"Git",
 			"Figma",
+			"GSAP",
 		],
 	},
 	{
